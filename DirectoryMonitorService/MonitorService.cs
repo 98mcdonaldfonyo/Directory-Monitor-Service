@@ -127,6 +127,7 @@ namespace DirectoryMonitorService
 
                                 //in this case(txt) we have a Company Name : 
                                 //CompanyId=? But we have CompanyName. 
+                                //today!
 
 
                         };
