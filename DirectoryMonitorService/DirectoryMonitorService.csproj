@@ -152,6 +152,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Feature1.cs" />
     <Compile Include="MonitorService.cs">
       <SubType>Component</SubType>
     </Compile>
