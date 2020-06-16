@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DevMasterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TCompany">
+    <Key>
+      <PropertyRef Name="CompanyId" />
+    </Key>
+    <Property Name="CompanyId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ContactPerson" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Overdraft" Type="money" Nullable="false" />
+    <Property Name="VATNo" Type="nvarchar" MaxLength="15" />
+    <Property Name="RegNo" Type="nvarchar" MaxLength="20" />
+    <Property Name="OfficerOnDutyId" Type="int" Nullable="false" />
+    <Property Name="CanPayCash" Type="bit" Nullable="false" />
+    <Property Name="ICFXIdentity" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UseOmnibus" Type="bit" Nullable="false" />
+    <Property Name="CanPayUSD" Type="bit" Nullable="false" />
+    <Property Name="USDCommPerc" Type="money" Nullable="false" />
+    <Property Name="CanPayBWP" Type="bit" Nullable="false" />
+    <Property Name="BWPCommPerc" Type="money" Nullable="false" />
+    <Property Name="TotalMarginZARPayment" Type="money" Nullable="false" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="Country" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="RegistrationDate" Type="smalldatetime" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="isNewsLetterSubscribed" Type="bit" Nullable="false" />
+    <Property Name="CompanyCreatedBy" Type="nvarchar" MaxLength="256" />
+    <Property Name="ContactPersonTelNo" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="OdoMeterReadingRequired" Type="bit" Nullable="false" />
+    <Property Name="AutoRevalueDateTime" Type="smalldatetime" />
+    <Property Name="AutoReval" Type="bit" Nullable="false" />
+    <Property Name="AutoRevalUserName" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="PrepaidAccount" Type="bit" Nullable="false" />
+    <Property Name="ReservedFundsActive" Type="bit" Nullable="false" />
+    <Property Name="CheckBankAccountFirst" Type="bit" Nullable="false" />
+    <Property Name="RecalcParkingOrders" Type="bit" Nullable="false" />
+    <Property Name="AutoCancelPendingOrders" Type="int" Nullable="false" />
+    <Property Name="ClientAPIKey" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="DriverCanCreateOrder" Type="bit" Nullable="false" />
+    <Property Name="LastUpdated" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="TestCompany" Type="bit" Nullable="false" />
+    <Property Name="Street" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Suburb" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="IncreasedPINSecurity" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TDeposit">
+    <Key>
+      <PropertyRef Name="DepositId" />
+    </Key>
+    <Property Name="DepositId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompanyId" Type="int" Nullable="false" />
+    <Property Name="Ccy" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="Amount" Type="money" Nullable="false" />
+    <Property Name="DepositDate" Type="smalldatetime" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BankStatementId" Type="int" Nullable="false" />
+    <Property Name="SwiftVerified" Type="bit" Nullable="false" />
+    <Property Name="DepositVerified" Type="bit" Nullable="false" />
+    <Property Name="SwiftVerifiedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SwiftVerifiedTime" Type="smalldatetime" />
+    <Property Name="DepositedIntoBankName" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="DepositVerifiedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DepositVerifiedTime" Type="smalldatetime" />
+    <Property Name="ReferenceUsed" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Declined" Type="bit" Nullable="false" />
+    <Property Name="DeclineReason" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="DeclineDateTime" Type="smalldatetime" />
+    <Property Name="IsCorrection" Type="bit" Nullable="false" />
+    <Property Name="AssociatedAccount" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ActualVerifiedTime" Type="smalldatetime" />
+    <Property Name="DepositedIntoBankName2" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="AssociatedAccount2" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="TFBankStatmentId" Type="int" Nullable="false" />
+    <Property Name="UserVerifiedTimeStamp" Type="smalldatetime" />
+    <Property Name="LastUpdated1" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="AllocatedToUserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="AllocatedToUserTime" Type="smalldatetime" />
+  </EntityType>
+  <EntityType Name="TMock">
+    <Key>
+      <PropertyRef Name="DepositId" />
+    </Key>
+    <Property Name="DepositId" Type="int" Nullable="false" />
+    <Property Name="AccountNumber" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="FirstName" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="LastName" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="DepositAmount" Type="real" Nullable="false" />
+    <Property Name="DateReceived" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DevMasterModelStoreContainer">
+    <EntitySet Name="TCompany" EntityType="Self.TCompany" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TDeposit" EntityType="Self.TDeposit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TMock" EntityType="Self.TMock" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

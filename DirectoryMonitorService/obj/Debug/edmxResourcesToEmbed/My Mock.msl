@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DevMasterModelStoreContainer" CdmEntityContainer="DevMasta">
+    <EntitySetMapping Name="TCompanies">
+      <EntityTypeMapping TypeName="DevMasterModel.TCompany">
+        <MappingFragment StoreEntitySet="TCompany">
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="ContactPerson" ColumnName="ContactPerson" />
+          <ScalarProperty Name="Overdraft" ColumnName="Overdraft" />
+          <ScalarProperty Name="VATNo" ColumnName="VATNo" />
+          <ScalarProperty Name="RegNo" ColumnName="RegNo" />
+          <ScalarProperty Name="OfficerOnDutyId" ColumnName="OfficerOnDutyId" />
+          <ScalarProperty Name="CanPayCash" ColumnName="CanPayCash" />
+          <ScalarProperty Name="ICFXIdentity" ColumnName="ICFXIdentity" />
+          <ScalarProperty Name="UseOmnibus" ColumnName="UseOmnibus" />
+          <ScalarProperty Name="CanPayUSD" ColumnName="CanPayUSD" />
+          <ScalarProperty Name="USDCommPerc" ColumnName="USDCommPerc" />
+          <ScalarProperty Name="CanPayBWP" ColumnName="CanPayBWP" />
+          <ScalarProperty Name="BWPCommPerc" ColumnName="BWPCommPerc" />
+          <ScalarProperty Name="TotalMarginZARPayment" ColumnName="TotalMarginZARPayment" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="isNewsLetterSubscribed" ColumnName="isNewsLetterSubscribed" />
+          <ScalarProperty Name="CompanyCreatedBy" ColumnName="CompanyCreatedBy" />
+          <ScalarProperty Name="ContactPersonTelNo" ColumnName="ContactPersonTelNo" />
+          <ScalarProperty Name="OdoMeterReadingRequired" ColumnName="OdoMeterReadingRequired" />
+          <ScalarProperty Name="AutoRevalueDateTime" ColumnName="AutoRevalueDateTime" />
+          <ScalarProperty Name="AutoReval" ColumnName="AutoReval" />
+          <ScalarProperty Name="AutoRevalUserName" ColumnName="AutoRevalUserName" />
+          <ScalarProperty Name="PrepaidAccount" ColumnName="PrepaidAccount" />
+          <ScalarProperty Name="ReservedFundsActive" ColumnName="ReservedFundsActive" />
+          <ScalarProperty Name="CheckBankAccountFirst" ColumnName="CheckBankAccountFirst" />
+          <ScalarProperty Name="RecalcParkingOrders" ColumnName="RecalcParkingOrders" />
+          <ScalarProperty Name="AutoCancelPendingOrders" ColumnName="AutoCancelPendingOrders" />
+          <ScalarProperty Name="ClientAPIKey" ColumnName="ClientAPIKey" />
+          <ScalarProperty Name="DriverCanCreateOrder" ColumnName="DriverCanCreateOrder" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="TestCompany" ColumnName="TestCompany" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="Suburb" ColumnName="Suburb" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="IncreasedPINSecurity" ColumnName="IncreasedPINSecurity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TDeposits">
+      <EntityTypeMapping TypeName="DevMasterModel.TDeposit">
+        <MappingFragment StoreEntitySet="TDeposit">
+          <ScalarProperty Name="DepositId" ColumnName="DepositId" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="Ccy" ColumnName="Ccy" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="DepositDate" ColumnName="DepositDate" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="BankStatementId" ColumnName="BankStatementId" />
+          <ScalarProperty Name="SwiftVerified" ColumnName="SwiftVerified" />
+          <ScalarProperty Name="DepositVerified" ColumnName="DepositVerified" />
+          <ScalarProperty Name="SwiftVerifiedBy" ColumnName="SwiftVerifiedBy" />
+          <ScalarProperty Name="SwiftVerifiedTime" ColumnName="SwiftVerifiedTime" />
+          <ScalarProperty Name="DepositedIntoBankName" ColumnName="DepositedIntoBankName" />
+          <ScalarProperty Name="DepositVerifiedBy" ColumnName="DepositVerifiedBy" />
+          <ScalarProperty Name="DepositVerifiedTime" ColumnName="DepositVerifiedTime" />
+          <ScalarProperty Name="ReferenceUsed" ColumnName="ReferenceUsed" />
+          <ScalarProperty Name="Declined" ColumnName="Declined" />
+          <ScalarProperty Name="DeclineReason" ColumnName="DeclineReason" />
+          <ScalarProperty Name="DeclineDateTime" ColumnName="DeclineDateTime" />
+          <ScalarProperty Name="IsCorrection" ColumnName="IsCorrection" />
+          <ScalarProperty Name="AssociatedAccount" ColumnName="AssociatedAccount" />
+          <ScalarProperty Name="ActualVerifiedTime" ColumnName="ActualVerifiedTime" />
+          <ScalarProperty Name="DepositedIntoBankName2" ColumnName="DepositedIntoBankName2" />
+          <ScalarProperty Name="AssociatedAccount2" ColumnName="AssociatedAccount2" />
+          <ScalarProperty Name="TFBankStatmentId" ColumnName="TFBankStatmentId" />
+          <ScalarProperty Name="UserVerifiedTimeStamp" ColumnName="UserVerifiedTimeStamp" />
+          <ScalarProperty Name="LastUpdated1" ColumnName="LastUpdated1" />
+          <ScalarProperty Name="AllocatedToUserName" ColumnName="AllocatedToUserName" />
+          <ScalarProperty Name="AllocatedToUserTime" ColumnName="AllocatedToUserTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TMocks">
+      <EntityTypeMapping TypeName="DevMasterModel.TMock">
+        <MappingFragment StoreEntitySet="TMock">
+          <ScalarProperty Name="DepositId" ColumnName="DepositId" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="DepositAmount" ColumnName="DepositAmount" />
+          <ScalarProperty Name="DateReceived" ColumnName="DateReceived" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

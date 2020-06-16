@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DevMasterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TCompany">
+          <Key>
+            <PropertyRef Name="CompanyId" />
+          </Key>
+          <Property Name="CompanyId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompanyName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ContactPerson" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Overdraft" Type="money" Nullable="false" />
+          <Property Name="VATNo" Type="nvarchar" MaxLength="15" />
+          <Property Name="RegNo" Type="nvarchar" MaxLength="20" />
+          <Property Name="OfficerOnDutyId" Type="int" Nullable="false" />
+          <Property Name="CanPayCash" Type="bit" Nullable="false" />
+          <Property Name="ICFXIdentity" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="UseOmnibus" Type="bit" Nullable="false" />
+          <Property Name="CanPayUSD" Type="bit" Nullable="false" />
+          <Property Name="USDCommPerc" Type="money" Nullable="false" />
+          <Property Name="CanPayBWP" Type="bit" Nullable="false" />
+          <Property Name="BWPCommPerc" Type="money" Nullable="false" />
+          <Property Name="TotalMarginZARPayment" Type="money" Nullable="false" />
+          <Property Name="Active" Type="bit" Nullable="false" />
+          <Property Name="Country" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="RegistrationDate" Type="smalldatetime" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="256" />
+          <Property Name="EmailAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="isNewsLetterSubscribed" Type="bit" Nullable="false" />
+          <Property Name="CompanyCreatedBy" Type="nvarchar" MaxLength="256" />
+          <Property Name="ContactPersonTelNo" Type="nvarchar" MaxLength="25" Nullable="false" />
+          <Property Name="OdoMeterReadingRequired" Type="bit" Nullable="false" />
+          <Property Name="AutoRevalueDateTime" Type="smalldatetime" />
+          <Property Name="AutoReval" Type="bit" Nullable="false" />
+          <Property Name="AutoRevalUserName" Type="nvarchar" MaxLength="25" Nullable="false" />
+          <Property Name="PrepaidAccount" Type="bit" Nullable="false" />
+          <Property Name="ReservedFundsActive" Type="bit" Nullable="false" />
+          <Property Name="CheckBankAccountFirst" Type="bit" Nullable="false" />
+          <Property Name="RecalcParkingOrders" Type="bit" Nullable="false" />
+          <Property Name="AutoCancelPendingOrders" Type="int" Nullable="false" />
+          <Property Name="ClientAPIKey" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="DriverCanCreateOrder" Type="bit" Nullable="false" />
+          <Property Name="LastUpdated" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+          <Property Name="TestCompany" Type="bit" Nullable="false" />
+          <Property Name="Street" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Suburb" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="City" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="IncreasedPINSecurity" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TDeposit">
+          <Key>
+            <PropertyRef Name="DepositId" />
+          </Key>
+          <Property Name="DepositId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompanyId" Type="int" Nullable="false" />
+          <Property Name="Ccy" Type="nvarchar" MaxLength="3" Nullable="false" />
+          <Property Name="Amount" Type="money" Nullable="false" />
+          <Property Name="DepositDate" Type="smalldatetime" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="BankStatementId" Type="int" Nullable="false" />
+          <Property Name="SwiftVerified" Type="bit" Nullable="false" />
+          <Property Name="DepositVerified" Type="bit" Nullable="false" />
+          <Property Name="SwiftVerifiedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="SwiftVerifiedTime" Type="smalldatetime" />
+          <Property Name="DepositedIntoBankName" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="DepositVerifiedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="DepositVerifiedTime" Type="smalldatetime" />
+          <Property Name="ReferenceUsed" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Declined" Type="bit" Nullable="false" />
+          <Property Name="DeclineReason" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="DeclineDateTime" Type="smalldatetime" />
+          <Property Name="IsCorrection" Type="bit" Nullable="false" />
+          <Property Name="AssociatedAccount" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="ActualVerifiedTime" Type="smalldatetime" />
+          <Property Name="DepositedIntoBankName2" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="AssociatedAccount2" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="TFBankStatmentId" Type="int" Nullable="false" />
+          <Property Name="UserVerifiedTimeStamp" Type="smalldatetime" />
+          <Property Name="LastUpdated1" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+          <Property Name="AllocatedToUserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="AllocatedToUserTime" Type="smalldatetime" />
+        </EntityType>
+        <EntityType Name="TMock">
+          <Key>
+            <PropertyRef Name="DepositId" />
+          </Key>
+          <Property Name="DepositId" Type="int" Nullable="false" />
+          <Property Name="AccountNumber" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="FirstName" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="LastName" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="DepositAmount" Type="real" Nullable="false" />
+          <Property Name="DateReceived" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="DevMasterModelStoreContainer">
+          <EntitySet Name="TCompany" EntityType="Self.TCompany" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TDeposit" EntityType="Self.TDeposit" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TMock" EntityType="Self.TMock" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DevMasterModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TCompany">
+          <Key>
+            <PropertyRef Name="CompanyId" />
+          </Key>
+          <Property Name="CompanyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompanyName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ContactPerson" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Overdraft" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="VATNo" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="RegNo" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="OfficerOnDutyId" Type="Int32" Nullable="false" />
+          <Property Name="CanPayCash" Type="Boolean" Nullable="false" />
+          <Property Name="ICFXIdentity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UseOmnibus" Type="Boolean" Nullable="false" />
+          <Property Name="CanPayUSD" Type="Boolean" Nullable="false" />
+          <Property Name="USDCommPerc" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="CanPayBWP" Type="Boolean" Nullable="false" />
+          <Property Name="BWPCommPerc" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="TotalMarginZARPayment" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="Active" Type="Boolean" Nullable="false" />
+          <Property Name="Country" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="RegistrationDate" Type="DateTime" Precision="0" />
+          <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="EmailAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="isNewsLetterSubscribed" Type="Boolean" Nullable="false" />
+          <Property Name="CompanyCreatedBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="ContactPersonTelNo" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="OdoMeterReadingRequired" Type="Boolean" Nullable="false" />
+          <Property Name="AutoRevalueDateTime" Type="DateTime" Precision="0" />
+          <Property Name="AutoReval" Type="Boolean" Nullable="false" />
+          <Property Name="AutoRevalUserName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PrepaidAccount" Type="Boolean" Nullable="false" />
+          <Property Name="ReservedFundsActive" Type="Boolean" Nullable="false" />
+          <Property Name="CheckBankAccountFirst" Type="Boolean" Nullable="false" />
+          <Property Name="RecalcParkingOrders" Type="Boolean" Nullable="false" />
+          <Property Name="AutoCancelPendingOrders" Type="Int32" Nullable="false" />
+          <Property Name="ClientAPIKey" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DriverCanCreateOrder" Type="Boolean" Nullable="false" />
+          <Property Name="LastUpdated" Type="Binary" MaxLength="8" FixedLength="true" Nullable="false" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="TestCompany" Type="Boolean" Nullable="false" />
+          <Property Name="Street" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Suburb" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="City" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="IncreasedPINSecurity" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TDeposit">
+          <Key>
+            <PropertyRef Name="DepositId" />
+          </Key>
+          <Property Name="DepositId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompanyId" Type="Int32" Nullable="false" />
+          <Property Name="Ccy" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Amount" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="DepositDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="BankStatementId" Type="Int32" Nullable="false" />
+          <Property Name="SwiftVerified" Type="Boolean" Nullable="false" />
+          <Property Name="DepositVerified" Type="Boolean" Nullable="false" />
+          <Property Name="SwiftVerifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SwiftVerifiedTime" Type="DateTime" Precision="0" />
+          <Property Name="DepositedIntoBankName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DepositVerifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DepositVerifiedTime" Type="DateTime" Precision="0" />
+          <Property Name="ReferenceUsed" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Declined" Type="Boolean" Nullable="false" />
+          <Property Name="DeclineReason" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DeclineDateTime" Type="DateTime" Precision="0" />
+          <Property Name="IsCorrection" Type="Boolean" Nullable="false" />
+          <Property Name="AssociatedAccount" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ActualVerifiedTime" Type="DateTime" Precision="0" />
+          <Property Name="DepositedIntoBankName2" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="AssociatedAccount2" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TFBankStatmentId" Type="Int32" Nullable="false" />
+          <Property Name="UserVerifiedTimeStamp" Type="DateTime" Precision="0" />
+          <Property Name="LastUpdated1" Type="Binary" MaxLength="8" FixedLength="true" Nullable="false" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="AllocatedToUserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="AllocatedToUserTime" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="TMock">
+          <Key>
+            <PropertyRef Name="DepositId" />
+          </Key>
+          <Property Name="DepositId" Type="Int32" Nullable="false" />
+          <Property Name="AccountNumber" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="LastName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="DepositAmount" Type="Single" Nullable="false" />
+          <Property Name="DateReceived" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="DevMasta" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TCompanies" EntityType="Self.TCompany" />
+          <EntitySet Name="TDeposits" EntityType="Self.TDeposit" />
+          <EntitySet Name="TMocks" EntityType="Self.TMock" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DevMasterModelStoreContainer" CdmEntityContainer="DevMasta">
+          <EntitySetMapping Name="TCompanies">
+            <EntityTypeMapping TypeName="DevMasterModel.TCompany">
+              <MappingFragment StoreEntitySet="TCompany">
+                <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+                <ScalarProperty Name="ContactPerson" ColumnName="ContactPerson" />
+                <ScalarProperty Name="Overdraft" ColumnName="Overdraft" />
+                <ScalarProperty Name="VATNo" ColumnName="VATNo" />
+                <ScalarProperty Name="RegNo" ColumnName="RegNo" />
+                <ScalarProperty Name="OfficerOnDutyId" ColumnName="OfficerOnDutyId" />
+                <ScalarProperty Name="CanPayCash" ColumnName="CanPayCash" />
+                <ScalarProperty Name="ICFXIdentity" ColumnName="ICFXIdentity" />
+                <ScalarProperty Name="UseOmnibus" ColumnName="UseOmnibus" />
+                <ScalarProperty Name="CanPayUSD" ColumnName="CanPayUSD" />
+                <ScalarProperty Name="USDCommPerc" ColumnName="USDCommPerc" />
+                <ScalarProperty Name="CanPayBWP" ColumnName="CanPayBWP" />
+                <ScalarProperty Name="BWPCommPerc" ColumnName="BWPCommPerc" />
+                <ScalarProperty Name="TotalMarginZARPayment" ColumnName="TotalMarginZARPayment" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+                <ScalarProperty Name="isNewsLetterSubscribed" ColumnName="isNewsLetterSubscribed" />
+                <ScalarProperty Name="CompanyCreatedBy" ColumnName="CompanyCreatedBy" />
+                <ScalarProperty Name="ContactPersonTelNo" ColumnName="ContactPersonTelNo" />
+                <ScalarProperty Name="OdoMeterReadingRequired" ColumnName="OdoMeterReadingRequired" />
+                <ScalarProperty Name="AutoRevalueDateTime" ColumnName="AutoRevalueDateTime" />
+                <ScalarProperty Name="AutoReval" ColumnName="AutoReval" />
+                <ScalarProperty Name="AutoRevalUserName" ColumnName="AutoRevalUserName" />
+                <ScalarProperty Name="PrepaidAccount" ColumnName="PrepaidAccount" />
+                <ScalarProperty Name="ReservedFundsActive" ColumnName="ReservedFundsActive" />
+                <ScalarProperty Name="CheckBankAccountFirst" ColumnName="CheckBankAccountFirst" />
+                <ScalarProperty Name="RecalcParkingOrders" ColumnName="RecalcParkingOrders" />
+                <ScalarProperty Name="AutoCancelPendingOrders" ColumnName="AutoCancelPendingOrders" />
+                <ScalarProperty Name="ClientAPIKey" ColumnName="ClientAPIKey" />
+                <ScalarProperty Name="DriverCanCreateOrder" ColumnName="DriverCanCreateOrder" />
+                <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+                <ScalarProperty Name="TestCompany" ColumnName="TestCompany" />
+                <ScalarProperty Name="Street" ColumnName="Street" />
+                <ScalarProperty Name="Suburb" ColumnName="Suburb" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="IncreasedPINSecurity" ColumnName="IncreasedPINSecurity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TDeposits">
+            <EntityTypeMapping TypeName="DevMasterModel.TDeposit">
+              <MappingFragment StoreEntitySet="TDeposit">
+                <ScalarProperty Name="DepositId" ColumnName="DepositId" />
+                <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+                <ScalarProperty Name="Ccy" ColumnName="Ccy" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="DepositDate" ColumnName="DepositDate" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="BankStatementId" ColumnName="BankStatementId" />
+                <ScalarProperty Name="SwiftVerified" ColumnName="SwiftVerified" />
+                <ScalarProperty Name="DepositVerified" ColumnName="DepositVerified" />
+                <ScalarProperty Name="SwiftVerifiedBy" ColumnName="SwiftVerifiedBy" />
+                <ScalarProperty Name="SwiftVerifiedTime" ColumnName="SwiftVerifiedTime" />
+                <ScalarProperty Name="DepositedIntoBankName" ColumnName="DepositedIntoBankName" />
+                <ScalarProperty Name="DepositVerifiedBy" ColumnName="DepositVerifiedBy" />
+                <ScalarProperty Name="DepositVerifiedTime" ColumnName="DepositVerifiedTime" />
+                <ScalarProperty Name="ReferenceUsed" ColumnName="ReferenceUsed" />
+                <ScalarProperty Name="Declined" ColumnName="Declined" />
+                <ScalarProperty Name="DeclineReason" ColumnName="DeclineReason" />
+                <ScalarProperty Name="DeclineDateTime" ColumnName="DeclineDateTime" />
+                <ScalarProperty Name="IsCorrection" ColumnName="IsCorrection" />
+                <ScalarProperty Name="AssociatedAccount" ColumnName="AssociatedAccount" />
+                <ScalarProperty Name="ActualVerifiedTime" ColumnName="ActualVerifiedTime" />
+                <ScalarProperty Name="DepositedIntoBankName2" ColumnName="DepositedIntoBankName2" />
+                <ScalarProperty Name="AssociatedAccount2" ColumnName="AssociatedAccount2" />
+                <ScalarProperty Name="TFBankStatmentId" ColumnName="TFBankStatmentId" />
+                <ScalarProperty Name="UserVerifiedTimeStamp" ColumnName="UserVerifiedTimeStamp" />
+                <ScalarProperty Name="LastUpdated1" ColumnName="LastUpdated1" />
+                <ScalarProperty Name="AllocatedToUserName" ColumnName="AllocatedToUserName" />
+                <ScalarProperty Name="AllocatedToUserTime" ColumnName="AllocatedToUserTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TMocks">
+            <EntityTypeMapping TypeName="DevMasterModel.TMock">
+              <MappingFragment StoreEntitySet="TMock">
+                <ScalarProperty Name="DepositId" ColumnName="DepositId" />
+                <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="DepositAmount" ColumnName="DepositAmount" />
+                <ScalarProperty Name="DateReceived" ColumnName="DateReceived" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

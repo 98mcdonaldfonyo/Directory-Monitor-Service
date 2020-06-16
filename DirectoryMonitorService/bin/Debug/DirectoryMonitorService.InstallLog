@@ -1,0 +1,166 @@
+﻿Uninstalling assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+Removing EventLog source DirectoryMonitorService.
+Service DirectoryMonitorService is being removed from the system...
+Service DirectoryMonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Rolling back assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Installing assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Rolling back assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+Removing EventLog source DirectoryMonitorService.
+Warning: The source DirectoryMonitorService is not registered on the local machine.
+Service DirectoryMonitorService is being removed from the system...
+Service DirectoryMonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Installing service DirectoryMonitorService...
+Creating EventLog source DirectoryMonitorService in log Application...
+Rolling back assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source DirectoryMonitorService.
+Uninstalling assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+Removing EventLog source DirectoryMonitorService.
+Warning: The source DirectoryMonitorService is not registered on the local machine.
+Service DirectoryMonitorService is being removed from the system...
+Service DirectoryMonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Installing service DirectoryMonitorService...
+Creating EventLog source DirectoryMonitorService in log Application...
+Rolling back assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source DirectoryMonitorService.
+Uninstalling assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+Removing EventLog source DirectoryMonitorService.
+Warning: The source DirectoryMonitorService is not registered on the local machine.
+Service DirectoryMonitorService is being removed from the system...
+Service DirectoryMonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Installing service DirectoryMonitorService...
+Creating EventLog source DirectoryMonitorService in log Application...
+Rolling back assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source DirectoryMonitorService.
+Uninstalling assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+Removing EventLog source DirectoryMonitorService.
+Warning: The source DirectoryMonitorService is not registered on the local machine.
+Service DirectoryMonitorService is being removed from the system...
+Service DirectoryMonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Installing service DirectoryMonitorService...
+Creating EventLog source DirectoryMonitorService in log Application...
+Rolling back assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source DirectoryMonitorService.
+Installing assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Installing service DirectoryMonitorService...
+Service DirectoryMonitorService has been successfully installed.
+Creating EventLog source DirectoryMonitorService in log Application...
+Committing assembly 'C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\KelvinTF\Desktop\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Uninstalling assembly 'D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+Removing EventLog source DirectoryMonitorService.
+Service DirectoryMonitorService is being removed from the system...
+Service DirectoryMonitorService was successfully removed from the system.
+Installing assembly 'D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Installing service DirectoryMonitorService...
+Service DirectoryMonitorService has been successfully installed.
+Creating EventLog source DirectoryMonitorService in log Application...
+Committing assembly 'D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
