@@ -107,8 +107,6 @@ namespace DirectoryMonitorService
                             var mock = new TMock()
                             {
 
-
-
                                 AccountNumber = AccountNumber,
                                 FirstName = FirstName,
                                 LastName = LastName,
