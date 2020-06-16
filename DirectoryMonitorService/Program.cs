@@ -21,7 +21,7 @@ namespace DirectoryMonitorService
             ServicesToRun = new ServiceBase[]
             {
                 new MonitorService()
-                //code to call feature1.cs
+                
             };
             ServiceBase.Run(ServicesToRun);
         }
