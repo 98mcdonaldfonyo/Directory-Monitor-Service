@@ -84,7 +84,7 @@ namespace DirectoryMonitorService
             {
                 if (System.IO.Directory.Exists($"{_SOURCE}"))
                 {
-                    List<string> files = System.IO.Directory.GetFiles($"{_SOURCE}").ToList(); ;
+                    List<string> files = System.IO.Directory.GetFiles($"{_SOURCE}").ToList(); 
 
                     foreach (string s in files)
                     {
@@ -133,7 +133,7 @@ namespace DirectoryMonitorService
                         };
                             try
                             {
-                                if (DepositId != -1)
+                                if (DepositId.ToString() !=null)
                                 {
                                     context.TMocks.Add(mock);
                                     context.SaveChanges();
