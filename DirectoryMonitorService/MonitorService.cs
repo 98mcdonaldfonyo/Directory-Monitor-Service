@@ -114,7 +114,6 @@ namespace DirectoryMonitorService
                                 DepositId = DepositId,
                                 DateReceived = DateReceived
 
-
                             };
 
                             var deposit = new TDeposit
