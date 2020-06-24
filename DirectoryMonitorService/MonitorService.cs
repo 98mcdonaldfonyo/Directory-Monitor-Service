@@ -259,7 +259,6 @@ namespace DirectoryMonitorService
                                 return false;
                             }
 
-
                         }
                         
                     }
