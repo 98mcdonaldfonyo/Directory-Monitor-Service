@@ -164,3 +164,52 @@ Affected parameters are:
    logfile = D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
    assemblypath = D:\Mc Donald Fonyo\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
    logtoconsole = 
+Uninstalling assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+Removing EventLog source DirectoryMonitorService.
+Service DirectoryMonitorService is being removed from the system...
+Service DirectoryMonitorService was successfully removed from the system.
+Installing assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Installing service DirectoryMonitorService...
+Service DirectoryMonitorService has been successfully installed.
+Creating EventLog source DirectoryMonitorService in log Application...
+Committing assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+Removing EventLog source DirectoryMonitorService.
+Warning: The source DirectoryMonitorService is not registered on the local machine.
+Service DirectoryMonitorService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 
+Installing service DirectoryMonitorService...
+Service DirectoryMonitorService has been successfully installed.
+Creating EventLog source DirectoryMonitorService in log Application...
+Committing assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\bin\Debug\DirectoryMonitorService.exe
+   logtoconsole = 

@@ -17,7 +17,7 @@ namespace DirectoryMonitorService
         public int DepositId { get; set; }
         public int CompanyId { get; set; }
         public string Ccy { get; set; }
-        public double Amount { get; set; }
+        public decimal Amount { get; set; }
         public System.DateTime DepositDate { get; set; }
         public string UserName { get; set; }
         public int BankStatementId { get; set; }

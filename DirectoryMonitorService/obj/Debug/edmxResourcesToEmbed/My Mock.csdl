@@ -87,7 +87,7 @@
     <Property Name="AccountNumber" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
     <Property Name="FirstName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
     <Property Name="LastName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
-    <Property Name="DepositAmount" Type="Single" Nullable="false" />
+    <Property Name="DepositAmount" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
     <Property Name="DateReceived" Type="DateTime" Nullable="false" Precision="3" />
   </EntityType>
   <EntityContainer Name="DevMasta" annotation:LazyLoadingEnabled="true">

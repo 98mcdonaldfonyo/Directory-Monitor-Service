@@ -87,7 +87,7 @@
     <Property Name="AccountNumber" Type="nchar" MaxLength="10" Nullable="false" />
     <Property Name="FirstName" Type="nchar" MaxLength="10" Nullable="false" />
     <Property Name="LastName" Type="nchar" MaxLength="10" Nullable="false" />
-    <Property Name="DepositAmount" Type="real" Nullable="false" />
+    <Property Name="DepositAmount" Type="decimal" Precision="10" Scale="2" Nullable="false" />
     <Property Name="DateReceived" Type="datetime" Nullable="false" />
   </EntityType>
   <EntityContainer Name="DevMasterModelStoreContainer">

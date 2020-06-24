@@ -18,7 +18,7 @@ namespace DirectoryMonitorService
         public string AccountNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public double DepositAmount { get; set; }
+        public decimal DepositAmount { get; set; }
         public System.DateTime DateReceived { get; set; }
     }
 }

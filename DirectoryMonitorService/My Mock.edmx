@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="DevMasterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="DevMasterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="TCompany">
           <Key>
             <PropertyRef Name="CompanyId" />
@@ -92,7 +92,7 @@
           <Property Name="AccountNumber" Type="nchar" MaxLength="10" Nullable="false" />
           <Property Name="FirstName" Type="nchar" MaxLength="10" Nullable="false" />
           <Property Name="LastName" Type="nchar" MaxLength="10" Nullable="false" />
-          <Property Name="DepositAmount" Type="real" Nullable="false" />
+          <Property Name="DepositAmount" Type="decimal" Precision="10" Scale="2" Nullable="false" />
           <Property Name="DateReceived" Type="datetime" Nullable="false" />
         </EntityType>
         <EntityContainer Name="DevMasterModelStoreContainer">
@@ -100,8 +100,7 @@
           <EntitySet Name="TDeposit" EntityType="Self.TDeposit" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TMock" EntityType="Self.TMock" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="DevMasterModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -192,7 +191,7 @@
           <Property Name="AccountNumber" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="FirstName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="LastName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="DepositAmount" Type="Single" Nullable="false" />
+          <Property Name="DepositAmount" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
           <Property Name="DateReceived" Type="DateTime" Nullable="false" Precision="3" />
         </EntityType>
         <EntityContainer Name="DevMasta" annotation:LazyLoadingEnabled="true">

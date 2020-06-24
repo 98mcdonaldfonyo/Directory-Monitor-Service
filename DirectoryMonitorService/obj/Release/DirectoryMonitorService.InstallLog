@@ -1,0 +1,62 @@
+﻿Installing assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe
+   logtoconsole = 
+An exception occurred while trying to find the installers in the C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe.
+Rolling back assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe
+   logtoconsole = 
+An exception occurred while trying to find the installers in the C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe.
+Uninstalling assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe
+An exception occurred while trying to find the installers in the C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe.
+Installing assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe
+   logtoconsole = 
+An exception occurred while trying to find the installers in the C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe.
+Rolling back assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe
+   logtoconsole = 
+An exception occurred while trying to find the installers in the C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe.
+Installing assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe
+   logtoconsole = 
+An exception occurred while trying to find the installers in the C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe.
+Rolling back assembly 'C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.InstallLog
+   assemblypath = C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe
+   logtoconsole = 
+An exception occurred while trying to find the installers in the C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for C:\Users\mcdon\Documents\Transport Forex Projects\DirectoryMonitorService\DirectoryMonitorService\obj\Release\DirectoryMonitorService.exe.
